@@ -5,4 +5,8 @@
 
 ## Running a local server
 
-- `npx http-server`
+- `npx http-server site`
+
+## Deploying
+
+- `rsync -avP --delete site/ <username>@blog.smallcamp.art:</link/to/www/>blog.smallcamp.art`
